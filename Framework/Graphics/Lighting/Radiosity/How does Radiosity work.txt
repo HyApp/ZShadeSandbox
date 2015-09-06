@@ -1,0 +1,11 @@
+Light enters and all visible patches that can see the light become brigher
+If a patch sees that another patch is lit it too will become lit.
+This is the light scattering across a surface.
+So with each pass the room becomes more visible because more and more patches
+will become visible to what the light touches.
+
+A surface is subdivided into a set of patches
+from each patch perspective a hemicube is created and the scene is rendered
+from all perspectives of the hemicube.
+Lambert's Cosine Law is applied to tone the brightness from what is rendered from the hemicube
+This is done multiple times until the desired light color is maintained on the surface

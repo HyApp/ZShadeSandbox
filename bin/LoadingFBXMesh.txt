@@ -1,0 +1,11 @@
+Loading FBX File: 0.432559s
+
+
+
+
+Loading FBX Model: Models//tree4.fbx
+Processing Skeleton Hierarchy: 3.1003e-005s
+Processing Geometry: 1.21922s
+
+
+FBX Loading Done!

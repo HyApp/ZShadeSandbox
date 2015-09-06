@@ -1,0 +1,3 @@
+texconv FarmhouseTexture.jpg
+texconv FarmhouseTextureBumpMap.jpg
+pause
